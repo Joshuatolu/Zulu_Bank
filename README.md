@@ -7,21 +7,21 @@ The script performs the following tasks:
 
 1. Data Normalization:
 
-  - Converts the dataset into 1NF, 2NF, and 3NF.
-  - Splits FullName into first_name and last_name.
-  - Creates separate tables for customer, accounts, transactions, and loans.
-  - Further normalize the date table.
+   - Converts the dataset into 1NF, 2NF, and 3NF.
+   - Splits FullName into first_name and last_name.
+   - Creates separate tables for customer, accounts, transactions, and loans.
+   - Further normalize the date table.
 
 2. Database Integration:
 
-  - Creates a PostgreSQL database named zulu_bank.
-  - Defines a schema (zulu_bank_db) and tables for the normalized data.
-  - Loads the normalized data into the respective tables.
+   - Creates a PostgreSQL database named zulu_bank.
+   - Defines a schema (zulu_bank_db) and tables for the normalized data.
+   - Loads the normalized data into the respective tables.
 
 3. Data Warehousing:
 
-  + Generates dimension and fact tables for transactional and loan data.
-  + Saves the data warehouse tables to CSV files (because at this stage, there's no warehouse I'm working with).
+   + Generates dimension and fact tables for transactional and loan data.
+   + Saves the data warehouse tables to CSV files (because at this stage, there's no warehouse I'm working with).
 
 ## Key Features
   + **Data Normalization:** Transforms raw data into a structured format.
